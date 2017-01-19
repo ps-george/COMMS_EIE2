@@ -21,3 +21,11 @@
 ![](./screenshots/Lab1_Exe2_4.PNG)
 
 ## Exercise 3
+#### 1
+![](./screenshots/Lab1_Exe3_1.PNG)
+#### 2
+![](./screenshots/Lab1_Exe3_2.PNG)
+#### 3
+![](./screenshots/Lab1_Exe3_3.PNG)
+#### 4
+![](./screenshots/Lab1_Exe3_4.PNG)
