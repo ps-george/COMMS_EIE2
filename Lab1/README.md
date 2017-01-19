@@ -11,13 +11,22 @@
 ![](./screenshots/DataTypes_panel2.PNG)
 
 ## Exercise 2
-#### 1
+- First, we created a uniform distribution generator.
+- By repeatedly generating uniformly distributed random numbers, we observed the sample mean converging to a normal distribution.
+
+#### Diagram 1
 ![](./screenshots/Lab1_Exe2_1.PNG)
-#### 2
+#### Histogram 1
 ![](./screenshots/Lab1_Exe2_2.PNG)
-#### 3
+
+### Task: to standardize the normal distribution produced by the Central Limit Theorem
+- Subtracted the mean from the random variable, and then dividing by the standard deviation
+
+#### Diagram 2
 ![](./screenshots/Lab1_Exe2_3.PNG)
-#### 4
+
+### New output was as follows:
+#### Histogram 2
 ![](./screenshots/Lab1_Exe2_4.PNG)
 
 ## Exercise 3
