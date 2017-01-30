@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D21582B645322B8932C90D840B86889A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4407455E52FA94DA201DE7E00F2B8037" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -303,8 +303,8 @@
 				<p.Text>Demodulated signal PSD</p.Text>
 			</NodeLabel>
 			<Wire Id="478" Joints="N(463:R0) N(476:Value)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="511" Joints="N(302:c1t0v) h(12) v(30) h(140) v(5) N(332:t0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="512" Joints="N(302:c2t0v) h(7) v(10) N(332:dt)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="511" Joints="N(302:c1t0v) h(15) v(35) N(332:t0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="512" Joints="N(302:c2t0v) h(10) v(10) N(332:dt)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="513" Joints="N(302:c3t0v) h(5) v(15) N(332:attributes)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />

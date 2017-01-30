@@ -29,4 +29,19 @@ need to scale the message amplitude?
 
 
 ## Exercise 3
-* Envelope detection is better at very high frequencies.
+* Envelope detection is better at high frequencies.
+* Envolope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
+* Coherent detection is fine at >1 modulation indexes, but requires the transmitter and receiever to be in phase and at the same frequency.
+
+## Exercise 4
+URSP = Universal Software Radio Peripheral
+1. niUSRP Open Tx Session: 
+2. niUSRP Configure Signal: - S
+3. niUSRP Write Tx Data
+4. niUSRP Close Session
+5. niUSRP Open Rx Session
+6. niUSRP Initiate
+7. niUSRP Fetch Rx data
+8. niUSRP Abort
+
+* Need USRP
