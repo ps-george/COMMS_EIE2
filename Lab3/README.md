@@ -39,5 +39,20 @@ George -
 
 !(FM Simulation)[screenshots/lab3_ex3_FM_simulation.PNG]
 
-!(Zoomed signal without transient)[screenshots/lab3_ex3_zoomed_signal.PMG]
+!(Zoomed signal without transient)[screenshots/lab3_ex3_zoomed_signal.PNG]
+
+## Exercise 4: FM USRP
+
+### Delta f = 1kHz
+!(Delta f = 1kHz)[screenshots/lab3_ex4_1000.PNG]
+
+### Delta f = 5kHz
+!(Delta f = 5kHz)[screenshots/lab3_ex4_5000.PNG]
+
+### Delta f = 30kHz
+!(Delta f = 30kHz)[screenshots/lab3_ex4_30000.PNG]
+
+* Note that the bandwidth of this signal is 62kHz, which agrees with Carsons rule for delta f = 30kHz and B = 1kHz:
+!(Carson's Rule)[screenshots/carsons_rule.PNG] = 62kHz.
+
 
