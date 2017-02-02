@@ -1,0 +1,43 @@
+# Lab 3: FM Simulation and USRP
+
+## Exercise 1: FM Modulator
+
+Generalised function for FM is:
+!(general form)[screenshots/FM_signal.PNG]
+Instantaneous frequency is:
+!(instantaneous frequency)[screenshots/omega.PNG]
+Equivalent form we will be using:
+!(equivalent form)[screenshots/equivalent_form.PNG]
+
+!(FM modulator)[screenshots/FM_modulator_diagram.PNG]
+
+### Vary _delta f_
+
+!(500)[screenshots/lab3_ex1_500.PNG]
+
+!(2000)[screenshots/lab3_ex1_2000.PNG]
+
+!(5000)[screenshots/lab3_ex1_5000.PNG]
+
+George -
+* As delta f increases, you can more easily see the variations in frequency of the FM signal.
+* In the frequency domain, you can see the message signal spread across a larger bandwidth.
+
+## Exercise 2: FM Demodulator
+
+George -
+* Theory is that the derivative provides a sinusoidal signal which has amplitude proportional to the message signal.
+* This is just like AM modulation, so the envelope detection method works to retrieve the signal from the differentiated signal.
+* Coherent detection would not work because we do not know the phase of the resultant signal
+
+!(FM demodulator)[screenshots/FM_demodulator_diagram.PNG]
+
+## Exercise 3: FM Simulation
+
+### Top level Diagram
+!(Top level)[screenshots/lab3_ex3_toplevel_diagram.PNG]
+
+!(FM Simulation)[screenshots/lab3_ex3_FM_simulation.PNG]
+
+!(Zoomed signal without transient)[screenshots/lab3_ex3_zoomed_signal.PMG]
+

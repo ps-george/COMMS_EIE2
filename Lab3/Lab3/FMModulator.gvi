@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D0022C36484197FCB897B3712D503E12" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F1A337B9191D3151CD4C2D5DCE3311D4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -287,7 +287,7 @@
 			<Wire Id="291" Joints="N(289:Value) h(45) N(15:B1)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="263" Joints="N(15:R0) h(10) B(1) N(29:instance in) B(1) v(80) B(3) N(265:L0) B(3) v(55) N(55:Value)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="77" Joints="N(29:c0t0v) h(7) v(-95) N(30:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="133" Joints="N(29:c2t0v) h(12) v(-75) h(30) B(3) h(250) v(-45) N(2575:dt) B(3) N(30:B0) B(3) v(5) h(370) v(70) N(2582:dt)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="133" Joints="N(29:c2t0v) h(12) v(-75) h(30) B(3) h(250) v(-75) N(2575:dt) B(3) N(30:B0) B(3) v(5) h(370) v(70) N(2582:dt)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="134" Joints="N(30:R0) N(86:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="132" Joints="N(118:o) N(31:x)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="122" Joints="N(86:o) N(118:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -305,10 +305,10 @@
 			<Wire Id="191" Joints="N(186:o) h(10) v(-75) N(189:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="266" Joints="N(265:R0) h(40) v(-100) N(219:Value)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="268" Joints="N(269:R0) N(241:Value)" xmlns="http://www.ni.com/PlatformFramework" />
-			<BuildWaveformNode Bounds="590 -265 40 40" Id="2575" />
-			<Wire Id="2577" Joints="N(31:sin(x\)) h(15) v(-25) N(2575:Y)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="2579" Joints="N(29:c3t0v) h(382) B(1) v(-115) N(2575:attributes) B(1) v(5) N(2582:attributes)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="2581" Joints="N(2575:output waveform) h(15) v(30) N(180:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<BuildWaveformNode Bounds="590 -295 40 40" Id="2575" />
+			<Wire Id="2577" Joints="N(31:sin(x\)) h(15) v(-55) N(2575:Y)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2579" Joints="N(29:c3t0v) h(382) B(1) v(-145) N(2575:attributes) B(1) v(5) N(2582:attributes)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2581" Joints="N(2575:output waveform) h(15) v(60) N(180:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
 			<BuildWaveformNode Bounds="590 -145 40 40" Id="2582" />
 			<Wire Id="2585" Joints="N(31:cos(x\)) h(60) v(80) N(2582:Y)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="2586" Joints="N(2582:output waveform) N(186:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -383,6 +383,12 @@
 			<NodeLabel AttachedTo="2630" Bounds="855 -155 50 14" Id="2631" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>error out</p.Text>
 			</NodeLabel>
+			<Comment Bounds="585 -50 53 15" Id="2637" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Cosine</p.Text>
+			</Comment>
+			<Comment Bounds="590 -235 46 15" Id="2638" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>-Sine</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<NumericText BaseName="[string]Numeric" BottomGuideline="[string]" Height="[float]22" Id="33" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]34" Left="[float]101" LeftGuideline="[string]" LeftPositionMode="[GuidelineItemPositionMode]PositionNormal" Margin="[SMThickness]0,0,0,0" MinHeight="[float]22" RightGuideline="[string]" SizeHeightMode="[GuidelineItemSizeMode]SizedFixed" SizeWidthMode="[GuidelineItemSizeMode]SizedFixed" Top="[float]102" TopGuideline="[string]" TopPositionMode="[GuidelineItemPositionMode]PositionNormal" Value="{DataItemBinding Id=32}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -417,7 +423,7 @@
 			<Label Height="[float]16" Id="216" LabelOwner="[UIModel]56" Left="[float]101" Text="[string]message signal" Top="[float]258" Width="[float]81" xmlns="http://www.ni.com/PanelCommon" />
 			<PlotLegend Graph="[UIModel]56" Height="[float]26" Id="70" Left="[float]708" Top="[float]281" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]56" Height="[float]102" Id="71" Left="[float]106" MinHeight="[float]80" Top="[float]710" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<ScaleLegend Graph="[UIModel]56" Height="[float]24" Id="72" Left="[float]708" MinHeight="[float]50" Top="[float]579" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]56" Height="[float]50" Id="72" Left="[float]708" MinHeight="[float]50" Top="[float]579" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]56" Height="[float]22" Id="73" Left="[float]106" Top="[float]688" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=192}" Height="[float]400" Id="195" Label="[UIModel]217" Left="[float]101" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]723" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="196" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]207" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 0.005, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
@@ -1438,7 +1444,7 @@
 			<Label Height="[float]16" Id="217" LabelOwner="[UIModel]195" Left="[float]101" Text="[string]FM out" Top="[float]700" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
 			<PlotLegend Graph="[UIModel]195" Height="[float]26" Id="209" Left="[float]708" Top="[float]723" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]195" Height="[float]102" Id="210" Left="[float]106" MinHeight="[float]80" Top="[float]1152" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<ScaleLegend Graph="[UIModel]195" Height="[float]24" Id="211" Left="[float]708" MinHeight="[float]50" Top="[float]1021" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]195" Height="[float]50" Id="211" Left="[float]708" MinHeight="[float]50" Top="[float]1021" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]195" Height="[float]22" Id="212" Left="[float]106" Top="[float]1130" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=218}" Height="[float]400" Id="220" Label="[UIModel]238" Left="[float]754" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]281" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="221" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]232" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
@@ -1459,7 +1465,7 @@
 			</Graph>
 			<PlotLegend Graph="[UIModel]220" Height="[float]26" Id="234" Left="[float]1361" Top="[float]281" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]220" Height="[float]102" Id="235" Left="[float]759" MinHeight="[float]80" Top="[float]710" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<ScaleLegend Graph="[UIModel]220" Height="[float]24" Id="236" Left="[float]1361" MinHeight="[float]50" Top="[float]579" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]220" Height="[float]50" Id="236" Left="[float]1361" MinHeight="[float]50" Top="[float]579" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]220" Height="[float]22" Id="237" Left="[float]759" Top="[float]688" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="238" LabelOwner="[UIModel]220" Left="[float]754" Text="[string]message PSD" Top="[float]258" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=240}" Height="[float]400" Id="242" Label="[UIModel]260" Left="[float]754" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]723" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -2480,7 +2486,7 @@
 			</Graph>
 			<PlotLegend Graph="[UIModel]242" Height="[float]26" Id="256" Left="[float]1361" Top="[float]723" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]242" Height="[float]102" Id="257" Left="[float]759" MinHeight="[float]80" Top="[float]1152" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<ScaleLegend Graph="[UIModel]242" Height="[float]24" Id="258" Left="[float]1361" MinHeight="[float]50" Top="[float]1021" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]242" Height="[float]50" Id="258" Left="[float]1361" MinHeight="[float]50" Top="[float]1021" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]242" Height="[float]22" Id="259" Left="[float]759" Top="[float]1130" Visible="[bool]False" Width="[float]148" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="260" LabelOwner="[UIModel]242" Left="[float]754" Text="[string]FM PSD" Top="[float]700" Width="[float]42" xmlns="http://www.ni.com/PanelCommon" />
 			<NumericText BaseName="[string]Numeric" BottomGuideline="[string]" Height="[float]22" Id="271" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]272" Left="[float]466" LeftGuideline="[string]" LeftPositionMode="[GuidelineItemPositionMode]PositionNormal" Margin="[SMThickness]0,0,0,0" MinHeight="[float]22" RightGuideline="[string]" SizeHeightMode="[GuidelineItemSizeMode]SizedFixed" SizeWidthMode="[GuidelineItemSizeMode]SizedFixed" Top="[float]102" TopGuideline="[string]" TopPositionMode="[GuidelineItemPositionMode]PositionNormal" Value="{DataItemBinding Id=270}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
