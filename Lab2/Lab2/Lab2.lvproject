@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8C1DDBDBC11453D3A5BB695BAA9B96BA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="93F0118DA59E2F79CC69A649B6CA4CC8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Data" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Data" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
@@ -41,16 +40,16 @@
 						</SystemHardwareGroupDiagram>
 						<SystemDiagramFacadeElement Name="PartsViewLeaf" Size="315 42" />
 						<SystemDiagramFacadeElement Name="PartsView" Size="315 42" />
-						<MoveableCablingTerminal AssociatedSystemHardware="214" BackingPort="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@6990425b881d4bf5b0eaaaa922e59ae2" Hotspot="2 90" Id="215" />
-						<MoveableCablingTerminal AssociatedSystemHardware="216" BackingPort="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@6990425b881d4bf5b0eaaaa922e59ae2" Hotspot="2 113" Id="217" />
+						<MoveableCablingTerminal AssociatedSystemHardware="214" BackingPort="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/ExternalPort_EthernetConnector" DataType="@d0e6bf4e40604709982c33ff5e28493f" Hotspot="2 90" Id="215" />
+						<MoveableCablingTerminal AssociatedSystemHardware="216" BackingPort="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}UsbConnector]UsbConnector/ExternalPort_UsbConnector" DataType="@d0e6bf4e40604709982c33ff5e28493f" Hotspot="2 113" Id="217" />
 					</SystemHardware>
 				</SystemDiagramRootDiagram>
 				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
 					<MappingManager Id="7" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
 						<Instance Id="52" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="eews104a-011" p9:Process.FirmwareVersion="L01 v02.57" p9:Process.HardwareAlias="eews104a-011" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Enterprise  (Service Pack 1)" p9:Process.SerialNumber="CZC5290LG7" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Hewlett-Packard" p10:Process.ModelName="HP EliteDesk 800 G1 SFF" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="eews104a-010" p9:Process.FirmwareVersion="L01 v02.57" p9:Process.HardwareAlias="eews104a-010" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Enterprise  (Service Pack 1)" p9:Process.SerialNumber="CZC5290LFX" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Hewlett-Packard" p10:Process.ModelName="HP EliteDesk 800 G1 SFF" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="68" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth11" p9:Process.HardwareAlias="Intel(R) Ethernet Connection I217-LM" p9:Process.NetworkConfig.Ipv4Address="155.198.114.50" p9:Process.NetworkConfig.Ipv4DnsServer="155.198.142.7" p9:Process.NetworkConfig.Ipv4Gateway="155.198.114.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth11" p9:Process.HardwareAlias="Intel(R) Ethernet Connection I217-LM" p9:Process.NetworkConfig.Ipv4Address="155.198.114.49" p9:Process.NetworkConfig.Ipv4DnsServer="155.198.142.7" p9:Process.NetworkConfig.Ipv4Gateway="155.198.114.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="229" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="AM.gvi" p9:Process.AssociatedIdentifier="227" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
@@ -1118,57 +1117,14 @@
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="14" ModelDefinitionType="DataDepot" Name="DataDepot">
 			<DataDepot />
-			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSRootDefinition,EmbeddedReference" Id="693" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
-				<TDMSRootDefinition StoragePath="Data-2017-01-26 104626 547.tdms" xmlns="http://www.ni.com/Data" />
-				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSGroupDefinition,EmbeddedReference" Id="694" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
-					<TDMSGroupDefinition GroupName="Capture 1" Source="AMCoherent.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="01/26/2017 10:46:26" xmlns="http://www.ni.com/Data" />
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="695" ModelDefinitionType="TDMSDataItemDefinition" Name="Demodulated\ Output">
-						<TDMSDataItemDefinition DataName="Demodulated Output" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="696" ModelDefinitionType="TDMSDataItemDefinition" Name="Unfiltered">
-						<TDMSDataItemDefinition DataName="Unfiltered" DataType="Wfm(Double)" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="697" ModelDefinitionType="TDMSDataItemDefinition" Name="Unfiltered\ PSD">
-						<TDMSDataItemDefinition DataName="Unfiltered PSD" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="698" ModelDefinitionType="TDMSDataItemDefinition" Name="LPF\ PSD">
-						<TDMSDataItemDefinition DataName="LPF PSD" DataType="@a8106957b9c74a119f0e3cfccf03e781" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="699" ModelDefinitionType="TDMSDataItemDefinition" Name="order">
-						<TDMSDataItemDefinition DataName="order" DataType="Int32" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="700" ModelDefinitionType="TDMSDataItemDefinition" Name="cutoff\ frequency">
-						<TDMSDataItemDefinition DataName="cutoff frequency" DataType="Double" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="701" ModelDefinitionType="TDMSDataItemDefinition" Name="error\ out">
-						<TDMSDataItemDefinition DataName="error out" DataType="Error" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,TDMSDataItemDefinition,ProjectDefaultDragDropServiceOptOut,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="702" ModelDefinitionType="TDMSDataItemDefinition" Name="error\ in">
-						<TDMSDataItemDefinition DataName="error in" DataType="Error" xmlns="http://www.ni.com/Data" />
-					</EmbeddedDefinitionReference>
-				</EmbeddedDefinitionReference>
-			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation Author="" ProjectIconFilename="Blank Project.png" xmlns="http://www.ni.com/PlatformFramework">
 		<p.Description></p.Description>
 	</ProjectInformation>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="6990425b881d4bf5b0eaaaa922e59ae2">
+		<p.TypeReference TypeId="d0e6bf4e40604709982c33ff5e28493f">
 			<Composite Id="1" Name="SystemDiagramCable" GenericTypeDefinition="Void" BaseType="Void" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="a8106957b9c74a119f0e3cfccf03e781">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="f0" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="df" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="magnitude">
-						<DataType>
-							<VariableArray DereferenceType="Double" />
-						</DataType>
-					</Field>
-				</Members>
-			</Composite>
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 </SourceFile>

@@ -45,3 +45,31 @@ URSP = Universal Software Radio Peripheral
 8. niUSRP Abort
 
 * Need USRP
+
+-George
+If the baseband discrete time signal is expressed as:
+!(Complex baseband in)[screenshots/complex_baseband.PNG]
+then the continuous time transmitted signal from the USRP is
+!(Continous time out)[screenshots/continuous_time.PNG]
+
+### Explain how the transmitter and receiver work.
+* The modules provide the USRP with complex data representing the signal.
+* The USRP modulates the signal, giving the above continuous time signal if given a baseband time signal as above.
+* At the receiver the USRP demodulates the signal and returns the demodulated signal.
+* The signal is very noisy.
+
+!(1kHz tone)[screenshots/lab2_ex4_first.PNG]
+
+### Single tone 5kHz
+!(Single tone 5kHz)[screenshots/lab2_ex4_5000.PNG]
+
+To observe the effect of noise in the demodulated signal, increase the receiver’s gain to 20
+dB (your receiver will start to detect other weaker signals in addition to the transmitted signal), and
+adjust the X axis of the demodulated message (in time domain) to show values between 0 second
+(s) and 0.004 s. Then, change the modulation index (𝜇) value and observe the effects on the plots
+of the demodulated signal in both time and frequency. From what value of can noise be clearly
+noticed in the plots?
+
+* We increased the receiver gain to 20, and the modulation index all the way up to 100, and received the following noise:
+
+!(Noisy AM)[screenshots/lab2_ex4_noisy.PNG]
