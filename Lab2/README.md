@@ -1,30 +1,53 @@
 # Lab 2 - AM Simulation and USRP
 
 ## Exercise 1 - AM Modulation
+In this first exercise, we built an AM modulater following the standard equation where the carrier wave's amplitude is changed with respect to the message signal. The fully built diagram is as follows:
 
+![Diagram](screenshots/lab2_ex1_diagram.PNG)
 
-Effect of Modulation Index 
-0.5 - 
-1 - 
-1.5 - 
+We set the parameters for the message and carrier signal to the following:
+![Chart from logbook]()
 
-Effect of increasing frequency of the message
+We then altered the modulation index and looked at the changes that appeared:
 
+### Effect of Modulation Index 
+Mod Index = 0.5 - ![](screenshots/lab2_ex1_mod_index_05.PNG)
+--
+Mod Index = 1 -  ![](screenshots/lab2_ex1_mod_index_1.PNG)
+--
+Mod Index = 1.5 -  ![](screenshots/lab2_ex1_mod_index_15.PNG)
+--
+
+### Observations
+Two points can be observed with increasing modulation index: The sidebands extend out and increase in magnitude; there is an increase modulation depth. At 0.5, the signal is undermodulated, has low modulation depth and therefore does not utilise the carrier efficiently. At 1, the modulation depth reaches zero and at index of 1.5 over modulation occurs. The carrier signal goes below the zero point and phase reversal is exhibited. The phase reversal caused the sidebands to stretch out - this may cause intereference and must be filtered.
+
+### Effect of increasing frequency of the message
+Fm = 1kHz - ![](screenshots/lab2_ex1_AM_1khz.PNG)
+--
+Fm = 2kHz -  ![](screenshots/lab2_ex1_AM_2khz.PNG	)
+--
+Fm = 5kHz -  ![](screenshots/lab2_ex1_AM_5khz.PNG	)
+--
+
+### Observations
 * When the message frequency is lower, the waveform is symmetrical around the x-axis.
 * At 5k, the waveform becomes malformed because there is an operlap between -fc+fm and fc-fm.
 * "Nyquist Rate" - message bandwidth must be at most half the carrier bandwidth.
 
 
 ## Exercise 2a) - Coherent Demodulation
+In this exercise, we 
 * Scaled the output by a factor of 2
 **MATTTTHS**
 m(t)cos(2pifct)^2= m(t)(1/2(1+cos(4pifct)))
+
+![](screenshots/lab2_ex2a_diagram.PNG)
 
 Explain briefly the mathematical theory behind this demodulation technique. Moreover, why
 are we using a low pass filter and why do we have to get rid of the DC component? Why do you
 need to scale the message amplitude?
 
-## Exercise 2b)
+## Exercise 2b) - Envelope Detection
 
 
 
