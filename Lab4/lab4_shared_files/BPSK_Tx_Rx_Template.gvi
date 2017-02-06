@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3E671394A44E51FAEE1FA925918FD57B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="185756B2E2BFC9A62F2665EFEBDC3D5C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -457,14 +457,7 @@
 				<p.Text>modulation type</p.Text>
 			</NodeLabel>
 			<Wire Id="2917" Joints="N(2914:Out) h(105.619995) N(2913:T0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="-2035 -95 139.886673 15" DataType="@6331ae93944b48efb2f0ba7948788355" Facade="NationalInstruments.MocCommon.SourceModel.IEnumBehavior" Id="2921" Label="2923" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>2</p.Data>
-				<EnumBehavior Id="2922" />
-			</Literal>
-			<NodeLabel AttachedTo="2921" Bounds="-2035 -95 0 0" Id="2923" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>pulse shaping filter</p.Text>
-			</NodeLabel>
-			<Wire Id="2924" Joints="N(2921:Out) h(45) v(10) N(2913:L0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2924" Joints="N(3035:Value) h(45) v(10) N(2913:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<MethodCall Bounds="-1750 -30 50 50" DomainName="NI.MocCommon" Id="2925" Target="NI:Analysis:Operations:\1D\ Convolution\ \(DBL\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -637,6 +630,12 @@
 			</NodeLabel>
 			<Wire Id="3022" Joints="N(2899:Value) h(140) B(1) N(2908:y) B(1) v(35) N(3017:Value)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="3032" Joints="N(2908:x/y) h(20) v(-160) h(45) B(3) N(2892:L2) B(3) v(-30) N(2913:L1) B(3) v(70) N(2998:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-1935.11328 -95 40 15" DataItem="3033" Id="3035" Label="3037" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@6331ae93944b48efb2f0ba7948788355" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="3035" Bounds="-2046 -95 106 14" Id="3037" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>pulse shaping filter</p.Text>
+			</NodeLabel>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" Top="[float]0" Width="[float]2000">
 			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="169" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]170" Left="[float]310" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]83" Value="{DataItemBinding Id=154}" ValueFormatter="[string]LVSI:G6" ValueType="[Type]Double" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -690,6 +689,13 @@
 			<Label Height="[float]16" Id="3021" LabelOwner="[UIModel]3020" Left="[float]465" Text="[string]1/T" Top="[float]8" Width="[float]18" xmlns="http://www.ni.com/PanelCommon" />
 			<NumericText BaseName="[string]Numeric" Height="[float]22" Id="3005" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]3025" Left="[float]320" MinHeight="[float]22" Top="[float]23" Value="{DataItemBinding Id=3002}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="3025" LabelOwner="[UIModel]3005" Left="[float]320" Text="[string]1/Tx" Top="[float]0" Width="[float]23" xmlns="http://www.ni.com/PanelCommon" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]57" Id="3036" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]3038" Left="[float]131" Top="[float]31" Value="{DataItemBinding Id=3033}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<EnumSelectorInfo DisplayValue="[string]none" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Raised Cosine" Value="[ushort]1" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Root Raised Cos" Value="[ushort]2" ValueType="[Type]UInt16" />
+				<EnumSelectorInfo DisplayValue="[string]Gaussian" Value="[ushort]3" ValueType="[Type]UInt16" />
+			</EnumSelector>
+			<Label Height="[float]16" Id="3038" LabelOwner="[UIModel]3036" Left="[float]131" Text="[string]pulse shaping filter" Top="[float]8" Width="[float]101" xmlns="http://www.ni.com/PanelCommon" />
 		</CPFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="154" Name="IQ rate" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x41086A0000000000</p.DefaultValue>
@@ -752,6 +758,9 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="3019" Name="1/T" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="@6331ae93944b48efb2f0ba7948788355" Id="3033" Name="pulse shaping filter" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>2</p.DefaultValue>
 		</DataItem>
 		<IconTable xmlns="http://www.ni.com/PlatformFramework">
 			<p.IconModel Target="niUSRP\ Open\ Tx\ Session\.gvi">
