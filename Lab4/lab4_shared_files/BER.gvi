@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="81A578360CE2DF195156B0B4D17844F7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3EAFD686D4FEFA80ECC7FBDCE6A9F4F5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="C" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/CCode" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
@@ -38,7 +38,7 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="11" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0">
+		<FrontPanelUnplacedItems Height="[float]1600" Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<ArrayViewer ArrayElement="[UIModel]20" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="23" IndexVisibility="[Visibility]Visible" Left="[float]0" Name="[string]received bits" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]0" Value="{DataItemBinding Id=17}" Width="[float]130" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0</p.DefaultElementValue>
 				<NumericText BaseName="[string]Numeric" Height="[float]22" Id="20" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[short]1" Left="[float]0" MinHeight="[float]22" Name="[string]Child" Top="[float]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Int16" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -52,10 +52,10 @@
 		<BlockDiagram Id="13">
 			<CCodeNode Bounds="435 215 400 235" DocumentText="&quot;int i;\r\ndouble count=0;\r\n\r\nfor(i=0; i&lt;length; i++){\r\n \r\n    if(received_bits[i]!=transmitted_bits[i]){\r\n        \r\n        count++;\r\n    }\r\n}\r\n\r\nBER=count/length;&quot;" Id="15" OutliningMode="Automatic" xmlns="http://www.ni.com/CCode">
 				<CCodeNodeDll DllId="{7fa6a184-f764-43a9-91d1-6a7d598d41ae}" Id="16" />
-				<CVariable Bounds="-85 125 105 15" DataType="Int16[]" Direction="Input" Facade="" Hotspot="-85 130" Id="1" IsTypeFixed="True" Name="received_bits" Usage="Required" />
-				<CVariable Bounds="-100 55 120 15" DataType="Int8[]" Direction="Input" Facade="" Hotspot="-100 60" Id="2" IsTypeFixed="True" Name="transmitted_bits" Usage="Required" />
-				<CVariable Bounds="-45 180 65 15" DataType="Int32" Direction="Input" Facade="" Hotspot="-45 185" Id="3" IsTypeFixed="True" Name="length" Usage="Required" />
-				<CVariable Bounds="380 115 55 15" DataType="Double" Direction="Output" Facade="" Hotspot="435 120" Id="4" IsTypeFixed="True" Name="BER" Usage="Optional" />
+				<CVariable Bounds="-85 125 105 15" DataType="Int16[]" Direction="Input" Hotspot="-85 130" Id="1" IsTypeFixed="True" Name="received_bits" Usage="Required" />
+				<CVariable Bounds="-100 55 120 15" DataType="Int8[]" Direction="Input" Hotspot="-100 60" Id="2" IsTypeFixed="True" Name="transmitted_bits" Usage="Required" />
+				<CVariable Bounds="-45 180 65 15" DataType="Int32" Direction="Input" Hotspot="-45 185" Id="3" IsTypeFixed="True" Name="length" Usage="Required" />
+				<CVariable Bounds="380 115 55 15" DataType="Double" Direction="Output" Hotspot="435 120" Id="4" IsTypeFixed="True" Name="BER" Usage="Optional" />
 			</CCodeNode>
 			<DataAccessor Bounds="205 340 40 15" DataItem="17" Id="22" Label="24" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int16[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
