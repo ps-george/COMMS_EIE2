@@ -36,24 +36,35 @@ Fm = 5kHz -  ![](screenshots/lab2_ex1_AM_5khz.PNG	)
 
 
 ## Exercise 2a) - Coherent Demodulation
-In this exercise, we 
-* Scaled the output by a factor of 2
-**MATTTTHS**
-m(t)cos(2pifct)^2= m(t)(1/2(1+cos(4pifct)))
-
+In this exercise, we built a AM Demoulator which uses coherent demodulation.
 ![](screenshots/lab2_ex2a_diagram.PNG)
 
-Explain briefly the mathematical theory behind this demodulation technique. Moreover, why
-are we using a low pass filter and why do we have to get rid of the DC component? Why do you
-need to scale the message amplitude?
+## Theory
+The carrier signal m(t)cos(2pifct) when received by the receiver is multiplied by cos(2pifct).
+
+m(t)cos(2pifct)^2= m(t)(1/2(1+cos(4pifct)))
+
+Using a low pass filter, centered around the baseband, the output signal will be 1/2m(t).
+
+Therefore to retrieve the original signal amplitude, we multiply the output by 2.
+
 
 ## Exercise 2b) - Envelope Detection
+In this exercise, we built another AM demoulator which uses envelope detection.
+![](screenshots/lab2_ex2b_envelope_diagram.PNG)
 
-
+## Theory
+The envelope detector outputs the envelope of one half of the signal. The high frequency element is then filtered out.
+![](screenshots/envelope_detect.gif)
 
 ## Exercise 3
+Here we simulated the AM Modulator and Demodulator working together.
+
+Diagram:
+![](lab2_ex3_diagram.PNG)
+
 * Envelope detection is better at high frequencies.
-* Envolope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
+* Envelope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
 * Coherent detection is fine at >1 modulation indexes, but requires the transmitter and receiever to be in phase and at the same frequency.
 
 ## Exercise 4
@@ -67,9 +78,6 @@ URSP = Universal Software Radio Peripheral
 7. niUSRP Fetch Rx data
 8. niUSRP Abort
 
-* Need USRP
-
--George
 If the baseband discrete time signal is expressed as:
 ![Complex baseband in](screenshots/complex_baseband_usrp.PNG)
 then the continuous time transmitted signal from the USRP is
