@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DAB03C328619A6A11137678CDAD0E133" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D13934E75596D0519B14560A2FBCA593" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -50,9 +50,9 @@
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="13">
 			<MathNode Bounds="410 230 495 480" DocumentText="&quot;m1=data_in(1:message_length);\r\nm2=data_in((message_length+1):(2*message_length));\r\nm3=data_in(((2*message_length)+1):(3*message_length));\r\nout=zeros(1,message_length);\r\nout=int16(out);\r\n\r\nfor i=1:message_length\r\n    \r\n    counter=0;\r\n    if m1(1,i)==1\r\n        counter=counter+1;\r\n    end\r\n    if m2(1,i)==1\r\n        counter=counter+1;\r\n    end\r\n    if m3(1,i)==1\r\n        counter=counter+1;\r\n    end\r\n    if counter&gt;1\r\n        out(1,i)=1;\r\n    end\r\nend\r\n\r\noutput=out;\r\nout=zeros(1,message_length);\r\nout=int16(out);&quot;" Id="15" OutliningMode="Manual" xmlns="http://www.ni.com/MScript">
-				<MVariable Bounds="-55 45 75 15" DataType="Int16[]" Direction="Input" Hotspot="-55 50" Id="1" IsTypeFixed="True" Name="data_in" Usage="Required" />
-				<MVariable Bounds="-100 140 120 15" DataType="Int32" Direction="Input" Hotspot="-100 145" Id="2" IsTypeFixed="True" Name="message_length" Usage="Required" />
-				<MVariable Bounds="475 115 70 15" DataType="Int16[]" Direction="Output" Hotspot="545 120" Id="3" IsTypeFixed="True" Name="output" Usage="Optional" />
+				<MVariable Bounds="-55 45 75 15" DataType="Int16[]" Direction="Input" Facade="" Hotspot="-55 50" Id="1" IsTypeFixed="True" Name="data_in" Usage="Required" />
+				<MVariable Bounds="-100 140 120 15" DataType="Int32" Direction="Input" Facade="" Hotspot="-100 145" Id="2" IsTypeFixed="True" Name="message_length" Usage="Required" />
+				<MVariable Bounds="475 115 70 15" DataType="Int16[]" Direction="Output" Facade="" Hotspot="545 120" Id="3" IsTypeFixed="True" Name="output" Usage="Optional" />
 			</MathNode>
 			<DataAccessor Bounds="120 275 40 15" DataItem="16" Id="21" Label="23" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int16[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />

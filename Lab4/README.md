@@ -50,6 +50,8 @@
 ### Aim
 
 ### Observation
+* BER Module does not allow the program to compile.
+* FEC Decoder seems to 	
 
 ## Exercise 4 - Differential Phase Shift Keying (DPSK)
 

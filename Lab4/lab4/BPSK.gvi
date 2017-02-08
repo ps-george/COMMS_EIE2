@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="45B9DF6D5B706EB93C7F52BF4197E005" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8F429927F34284F342CD9B4E9004EEE0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -259,7 +259,7 @@
 			<Subtract Bounds="-1375 210 30 30" Id="658" />
 			<Wire Id="659" Joints="N(637:R2) h(50) v(5) N(658:x)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="-1435 225 56 16" DataType="Double" Facade="NationalInstruments.MocCommon.SourceModel.INumericBehavior" Id="660" Label="661" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>0x40D387C000000000</p.Data>
+				<p.Data>0x40D3880000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
 			<NodeLabel AttachedTo="660" Bounds="-1435 225 0 0" Id="661" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -1141,32 +1141,6 @@
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
 		<IconTable xmlns="http://www.ni.com/PlatformFramework">
-			<p.IconModel Target="MT\ Calculate\ BER\ After\ Trigger\ \(Fibonacci\ PN\ Sequence\)\.gvi">
-				<MergeScript>
-					<MergeItem Path="." IsPrimary="True">
-						<Icon ListViewIconCrop="0 0 50 50">
-							<IconPanel Height="[float]50" Left="[float]0" Top="[float]0" Width="[float]50">
-								<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Left="[float]0" TemplateName="Gray" Top="[float]0">
-									<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
-									<Rectangle Fill="[SMSolidColorBrush]#ffe6e6e6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-									<Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #ffe6e6e6 0}, {Stop: #ffd9d9d9 1}}" Height="[float]6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,0,2,2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" />
-									<Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #fffafafa 0}, {Stop: #ffe6e6e6 1}}" Height="[float]6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" />
-									<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]MT Calculate BER After Trigger (Fibonacci PN Sequence)" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
-										<FontSetting FontSize="6" />
-									</FileNameText>
-								</IconTemplate>
-								<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]50" Left="[float]0" Top="[float]0" Width="[float]50">
-									<Path Data="[PathGeometry]M 46,1 C 47.654,1 49,2.346 49,4 L 49,46 C 49,47.654 47.654,49 46,49 L 4,49 C 2.346,49 1,47.654 1,46 L 1,4 C 1,2.346 2.346,1 4,1 L 46,1  M 46,0 L 4,0 C 1.8,0 0,1.8 0,4 L 0,46 C 0,48.2 1.8,50 4,50 L 46,50 C 48.2,50 50,48.2 50,46 L 50,4 C 50,1.8 48.2,0 46,0 L 46,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
-									<Path Data="[PathGeometry]M 49,46 C 49,47.65 47.65,49 46,49 L 4,49 C 2.35,49 1,47.65 1,46 L 1,4 C 1,2.35 2.35,1 4,1 L 46,1 C 47.65,1 49,2.35 49,4 L 49,46 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
-									<Path Data="[PathGeometry]M 48,46 C 48,47.1 47.1,48 46,48 L 4,48 C 2.9,48 2,47.1 2,46 L 2,4 C 2,2.9 2.9,2 4,2 L 46,2 C 47.1,2 48,2.9 48,4 L 48,46 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
-									<Path Data="[PathGeometry]M 48,45 L 48,46 C 48,47.1 47.1,48 46,48 L 4,48 C 2.9,48 2,47.1 2,46 L 2,45 L 48,45 Z M 35,12 L 26,12 L 26,23 L 26,24 L 26,35 L 35,35 C 35.55,35 36,34.55 36,34 L 36,24 L 36,23 L 36,13 C 36,12.45 35.55,12 35,12 Z M 34,23 L 28,23 L 28,22 L 34,22 L 34,23 Z M 34,25 L 28,25 L 28,24 L 34,24 L 34,25 Z" Fill="[SMSolidColorBrush]#ff37775d" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
-									<Path Data="[PathGeometry]M 8.395,41.441 C 8.395,41.687 8.346,41.907 8.247,42.101 C 8.147,42.294 8.013,42.455 7.839,42.582 C 7.638,42.732 7.418,42.84 7.177,42.903 C 6.936,42.969 6.631,43 6.262,43 L 4.041,43 L 4.041,37.911 L 6.016,37.911 C 6.426,37.911 6.727,37.925 6.916,37.952 C 7.107,37.979 7.295,38.04 7.482,38.133 C 7.675,38.232 7.82,38.362 7.914,38.528 C 8.01,38.694 8.057,38.882 8.057,39.094 C 8.057,39.34 7.993,39.557 7.862,39.744 C 7.733,39.932 7.549,40.079 7.312,40.183 L 7.312,40.21 C 7.645,40.276 7.909,40.413 8.104,40.62 C 8.297,40.829 8.395,41.103 8.395,41.441 Z M 6.713,39.35 C 6.713,39.266 6.692,39.182 6.65,39.097 C 6.607,39.013 6.533,38.951 6.425,38.909 C 6.329,38.872 6.21,38.852 6.068,38.848 C 5.926,38.845 5.726,38.843 5.468,38.843 L 5.346,38.843 L 5.346,39.92 L 5.551,39.92 C 5.759,39.92 5.936,39.916 6.081,39.909 C 6.226,39.902 6.342,39.88 6.426,39.841 C 6.545,39.789 6.622,39.721 6.658,39.638 C 6.695,39.556 6.713,39.459 6.713,39.35 Z M 7.031,41.421 C 7.031,41.26 7,41.135 6.937,41.047 C 6.875,40.959 6.768,40.894 6.619,40.851 C 6.515,40.821 6.375,40.805 6.195,40.803 C 6.015,40.8 5.828,40.799 5.632,40.799 L 5.346,40.799 L 5.346,42.068 L 5.442,42.068 C 5.811,42.068 6.075,42.067 6.233,42.064 C 6.393,42.062 6.54,42.033 6.674,41.975 C 6.81,41.918 6.903,41.842 6.955,41.747 C 7.006,41.653 7.031,41.544 7.031,41.421 Z M 12.703,43 L 9.022,43 L 9.022,37.911 L 12.703,37.911 L 12.703,38.895 L 10.328,38.895 L 10.328,39.773 L 12.533,39.773 L 12.533,40.757 L 10.328,40.757 L 10.328,42.015 L 12.703,42.015 L 12.703,43 Z M 18.937,43 L 17.334,43 L 15.949,41.134 L 15.341,41.134 L 15.341,43 L 14.035,43 L 14.035,37.911 L 16.236,37.911 C 16.537,37.911 16.796,37.928 17.011,37.962 C 17.228,37.996 17.431,38.07 17.62,38.185 C 17.811,38.298 17.963,38.446 18.076,38.627 C 18.188,38.808 18.245,39.035 18.245,39.309 C 18.245,39.685 18.158,39.992 17.983,40.229 C 17.809,40.465 17.56,40.663 17.237,40.82 L 18.937,43 Z M 16.889,39.47 C 16.889,39.342 16.864,39.233 16.811,39.142 C 16.758,39.05 16.668,38.979 16.541,38.926 C 16.451,38.89 16.348,38.867 16.229,38.86 C 16.11,38.853 15.972,38.848 15.816,38.848 L 15.34,38.848 L 15.34,40.218 L 15.743,40.218 C 15.952,40.218 16.128,40.208 16.269,40.188 C 16.41,40.168 16.529,40.121 16.624,40.047 C 16.715,39.977 16.781,39.899 16.824,39.813 C 16.868,39.728 16.889,39.613 16.889,39.47 Z M 25,24 L 25,35 L 14,35 C 13.45,35 13,34.55 13,34 L 13,24 L 25,24 Z M 22,29 L 16,29 L 16,30 L 22,30 L 22,29 Z M 25,23 L 13,23 L 13,13 C 13,12.45 13.45,12 14,12 L 25,12 L 25,23 Z M 22,17 L 19.5,17 L 19.5,14.5 L 18.5,14.5 L 18.5,17 L 16,17 L 16,18 L 18.5,18 L 18.5,20.5 L 19.5,20.5 L 19.5,18 L 22,18 L 22,17 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
-								</Canvas>
-							</IconPanel>
-						</Icon>
-					</MergeItem>
-				</MergeScript>
-			</p.IconModel>
 			<p.IconModel Target="niUSRP\ Open\ Tx\ Session\.gvi">
 				<MergeScript>
 					<MergeItem Path="." IsPrimary="True">
@@ -1608,6 +1582,32 @@
 									<Path Data="[PathGeometry]M 10,27 L 4,27 L 4,21 L 10,21 L 10,27 Z M 31,21 L 25,21 L 25,27 L 31,27 L 31,21 Z" Fill="[SMSolidColorBrush]#99000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
 									<Path Data="[PathGeometry]M 24,27 L 18,27 L 18,21 L 24,21 L 24,27 Z M 45,21 L 39,21 L 39,27 L 45,27 L 45,21 Z" Fill="[SMSolidColorBrush]#3f000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
 									<Path Data="[PathGeometry]M 17,27 L 11,27 L 11,21 L 17,21 L 17,27 Z M 38,21 L 32,21 L 32,27 L 38,27 L 38,21 Z M 38,34 L 32,34 L 32,40 L 38,40 L 38,34 Z M 45,34 L 39,34 L 39,40 L 45,40 L 45,34 Z M 26,38 L 27,36 C 27,36 20,37 20,29 L 21,29 C 21,36 27,35 27,35 L 26,33 L 30,35.5 L 26,38 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+								</Canvas>
+							</IconPanel>
+						</Icon>
+					</MergeItem>
+				</MergeScript>
+			</p.IconModel>
+			<p.IconModel Target="MT\ Calculate\ BER\ After\ Trigger\ \(Fibonacci\ PN\ Sequence\)\.gvi">
+				<MergeScript>
+					<MergeItem Path="." IsPrimary="True">
+						<Icon ListViewIconCrop="0 0 50 50">
+							<IconPanel Height="[float]50" Left="[float]0" Top="[float]0" Width="[float]50">
+								<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Left="[float]0" TemplateName="Gray" Top="[float]0">
+									<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+									<Rectangle Fill="[SMSolidColorBrush]#ffe6e6e6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+									<Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #ffe6e6e6 0}, {Stop: #ffd9d9d9 1}}" Height="[float]6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,0,2,2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" />
+									<Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #fffafafa 0}, {Stop: #ffe6e6e6 1}}" Height="[float]6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" />
+									<FileNameText Attached="[bool]True" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]MT Calculate BER After Trigger (Fibonacci PN Sequence)" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top">
+										<FontSetting FontSize="6" />
+									</FileNameText>
+								</IconTemplate>
+								<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]50" Left="[float]0" Top="[float]0" Width="[float]50">
+									<Path Data="[PathGeometry]M 46,1 C 47.654,1 49,2.346 49,4 L 49,46 C 49,47.654 47.654,49 46,49 L 4,49 C 2.346,49 1,47.654 1,46 L 1,4 C 1,2.346 2.346,1 4,1 L 46,1  M 46,0 L 4,0 C 1.8,0 0,1.8 0,4 L 0,46 C 0,48.2 1.8,50 4,50 L 46,50 C 48.2,50 50,48.2 50,46 L 50,4 C 50,1.8 48.2,0 46,0 L 46,0 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+									<Path Data="[PathGeometry]M 49,46 C 49,47.65 47.65,49 46,49 L 4,49 C 2.35,49 1,47.65 1,46 L 1,4 C 1,2.35 2.35,1 4,1 L 46,1 C 47.65,1 49,2.35 49,4 L 49,46 Z" Fill="[SMSolidColorBrush]#ffffffff" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+									<Path Data="[PathGeometry]M 48,46 C 48,47.1 47.1,48 46,48 L 4,48 C 2.9,48 2,47.1 2,46 L 2,4 C 2,2.9 2.9,2 4,2 L 46,2 C 47.1,2 48,2.9 48,4 L 48,46 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+									<Path Data="[PathGeometry]M 48,45 L 48,46 C 48,47.1 47.1,48 46,48 L 4,48 C 2.9,48 2,47.1 2,46 L 2,45 L 48,45 Z M 35,12 L 26,12 L 26,23 L 26,24 L 26,35 L 35,35 C 35.55,35 36,34.55 36,34 L 36,24 L 36,23 L 36,13 C 36,12.45 35.55,12 35,12 Z M 34,23 L 28,23 L 28,22 L 34,22 L 34,23 Z M 34,25 L 28,25 L 28,24 L 34,24 L 34,25 Z" Fill="[SMSolidColorBrush]#ff37775d" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
+									<Path Data="[PathGeometry]M 8.395,41.441 C 8.395,41.687 8.346,41.907 8.247,42.101 C 8.147,42.294 8.013,42.455 7.839,42.582 C 7.638,42.732 7.418,42.84 7.177,42.903 C 6.936,42.969 6.631,43 6.262,43 L 4.041,43 L 4.041,37.911 L 6.016,37.911 C 6.426,37.911 6.727,37.925 6.916,37.952 C 7.107,37.979 7.295,38.04 7.482,38.133 C 7.675,38.232 7.82,38.362 7.914,38.528 C 8.01,38.694 8.057,38.882 8.057,39.094 C 8.057,39.34 7.993,39.557 7.862,39.744 C 7.733,39.932 7.549,40.079 7.312,40.183 L 7.312,40.21 C 7.645,40.276 7.909,40.413 8.104,40.62 C 8.297,40.829 8.395,41.103 8.395,41.441 Z M 6.713,39.35 C 6.713,39.266 6.692,39.182 6.65,39.097 C 6.607,39.013 6.533,38.951 6.425,38.909 C 6.329,38.872 6.21,38.852 6.068,38.848 C 5.926,38.845 5.726,38.843 5.468,38.843 L 5.346,38.843 L 5.346,39.92 L 5.551,39.92 C 5.759,39.92 5.936,39.916 6.081,39.909 C 6.226,39.902 6.342,39.88 6.426,39.841 C 6.545,39.789 6.622,39.721 6.658,39.638 C 6.695,39.556 6.713,39.459 6.713,39.35 Z M 7.031,41.421 C 7.031,41.26 7,41.135 6.937,41.047 C 6.875,40.959 6.768,40.894 6.619,40.851 C 6.515,40.821 6.375,40.805 6.195,40.803 C 6.015,40.8 5.828,40.799 5.632,40.799 L 5.346,40.799 L 5.346,42.068 L 5.442,42.068 C 5.811,42.068 6.075,42.067 6.233,42.064 C 6.393,42.062 6.54,42.033 6.674,41.975 C 6.81,41.918 6.903,41.842 6.955,41.747 C 7.006,41.653 7.031,41.544 7.031,41.421 Z M 12.703,43 L 9.022,43 L 9.022,37.911 L 12.703,37.911 L 12.703,38.895 L 10.328,38.895 L 10.328,39.773 L 12.533,39.773 L 12.533,40.757 L 10.328,40.757 L 10.328,42.015 L 12.703,42.015 L 12.703,43 Z M 18.937,43 L 17.334,43 L 15.949,41.134 L 15.341,41.134 L 15.341,43 L 14.035,43 L 14.035,37.911 L 16.236,37.911 C 16.537,37.911 16.796,37.928 17.011,37.962 C 17.228,37.996 17.431,38.07 17.62,38.185 C 17.811,38.298 17.963,38.446 18.076,38.627 C 18.188,38.808 18.245,39.035 18.245,39.309 C 18.245,39.685 18.158,39.992 17.983,40.229 C 17.809,40.465 17.56,40.663 17.237,40.82 L 18.937,43 Z M 16.889,39.47 C 16.889,39.342 16.864,39.233 16.811,39.142 C 16.758,39.05 16.668,38.979 16.541,38.926 C 16.451,38.89 16.348,38.867 16.229,38.86 C 16.11,38.853 15.972,38.848 15.816,38.848 L 15.34,38.848 L 15.34,40.218 L 15.743,40.218 C 15.952,40.218 16.128,40.208 16.269,40.188 C 16.41,40.168 16.529,40.121 16.624,40.047 C 16.715,39.977 16.781,39.899 16.824,39.813 C 16.868,39.728 16.889,39.613 16.889,39.47 Z M 25,24 L 25,35 L 14,35 C 13.45,35 13,34.55 13,34 L 13,24 L 25,24 Z M 22,29 L 16,29 L 16,30 L 22,30 L 22,29 Z M 25,23 L 13,23 L 13,13 C 13,12.45 13.45,12 14,12 L 25,12 L 25,23 Z M 22,17 L 19.5,17 L 19.5,14.5 L 18.5,14.5 L 18.5,17 L 16,17 L 16,18 L 18.5,18 L 18.5,20.5 L 19.5,20.5 L 19.5,18 L 22,18 L 22,17 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]50" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]50" />
 								</Canvas>
 							</IconPanel>
 						</Icon>
