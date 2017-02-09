@@ -9,7 +9,9 @@ Diagram:
 ![BPSK Transmitter Diagram](screenshots/lab4_ex1_BPSK_Tx.PNG)
 	
 ### Observation
-Values: ![Ex 1 values](screenshots/lab4_ex1_values.PNG)
+Values: 
+
+![Ex 1 values](screenshots/lab4_ex1_values.PNG)
 	
 For a IQ Rate of 200k and a symbol rate of 10k the number of samples per symbol is 20.
 	
