@@ -3,12 +3,13 @@
 ## Exercise 1: FM Modulator
 
 Generalised function for FM is:
+
 ![general form](screenshots/FM_signal.PNG)
-
 Instantaneous frequency is:
-![instantaneous frequency](screenshots/omega.PNG)
 
+![instantaneous frequency](screenshots/omega.PNG)
 Equivalent form we will be using:
+
 ![equivalent form](screenshots/equivalent_form.PNG)
 
 ![FM modulator](screenshots/FM_modulator_diagram.PNG)
