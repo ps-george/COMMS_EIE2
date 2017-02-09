@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="EE749912723A349FFB449ACE14075965" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="43CA1D87FD279B0C099E55B28F72FA5B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -316,7 +316,7 @@
 			<Wire Id="2533" Joints="N(638:R4) N(640:L4)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="2545" Joints="N(640:R0) N(2542:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="2548" Joints="N(640:R4) N(2542:L4)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="-2515 -70 50 50" DomainName="NI.LabVIEW.ModulationDigital" Id="2829" Target="MT\ Generate\ Bits\ \(Fibonacci\,\ PN\ Order\)\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-2345 -60 50 50" DomainName="NI.LabVIEW.ModulationDigital" Id="2829" Target="MT\ Generate\ Bits\ \(Fibonacci\,\ PN\ Order\)\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="total bits" />
@@ -338,13 +338,13 @@
 				<Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<DataAccessor Bounds="-2580 -70 40 15" DataItem="2830" Id="2834" Label="2835" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-2410 -60 40 15" DataItem="2830" Id="2834" Label="2835" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="2834" Bounds="-2634 -70 49 14" Id="2835" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="2834" Bounds="-2464 -60 49 14" Id="2835" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>total bits</p.Text>
 			</NodeLabel>
-			<ForLoop Bounds="-2257 -107 115 95" DiagramId="2860" Id="2859">
+			<ForLoop Bounds="-2167 -107 115 95" DiagramId="2860" Id="2859">
 				<LoopIteration Bounds="75 65 15 15" Id="2862" />
 				<Select Bounds="60 25 40 40" Id="2865" />
 				<IsGreaterThan0 Bounds="25 30 30 30" Id="2866" />
@@ -363,7 +363,7 @@
 				<LoopTunnel AutoIndex="True" Bounds="-5 42 13 10" Docking="Left" Id="2864" Terminals="o0=3319, i0=2867" TunnelMode="0" />
 				<LoopTunnel AutoIndex="True" Bounds="105 42 13 10" Docking="Right" Id="2871" Terminals="o0=3460, i0=2870" TunnelMode="0" />
 			</ForLoop>
-			<MethodCall Bounds="-2095 -65 50 50" DomainName="NI.MocCommon" Id="2876" Target="AddFrameHeader\.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-2040 -65 50 50" DomainName="NI.MocCommon" Id="2876" Target="AddFrameHeader\.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="array" />
@@ -949,24 +949,24 @@
 				<Terminal DataType="Int16[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="3313" Joints="N(2936:R0) h(10) v(190) h(-420) v(50) B(4) N(3050:array) B(4) N(2942:o0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="3319" Joints="N(3523:outArray) h(60) B(1) v(-5) h(50) v(15) N(2864:o0) B(1) v(85) N(3458:array)" xmlns="http://www.ni.com/PlatformFramework" />
-			<ArraySize Bounds="-2310 10 40 20" Id="3458" />
+			<Wire Id="3319" Joints="N(3523:outArray) h(5) B(1) N(2864:o0) B(1) v(30) h(-60) v(40) N(3458:array)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ArraySize Bounds="-2255 5 40 20" Id="3458" />
 			<Wire Id="3460" Joints="N(2871:o0) N(2876:L0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="3463" Joints="N(2834:Value) N(2829:L0)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="3466" Joints="N(3458:size(s\)) h(30) B(1) h(165) v(67) h(1130) v(433) N(3162:length0) B(1) v(30) N(3469:Value)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="-2235 50 40 15" DataItem="3467" Id="3469" Label="3471" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="3466" Joints="N(3458:size(s\)) h(135) B(1) h(5) v(72) h(1130) v(433) N(3162:length0) B(1) v(-5) N(3469:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="-2065 10 40 15" DataItem="3467" Id="3469" Label="3471" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="3469" Bounds="-2190 50 88 14" Id="3471" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="3469" Bounds="-2020 10 88 14" Id="3471" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>message length</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="-2460 -150 40 15" DataItem="3509" Id="3514" Label="3515" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-2290 -140 40 15" DataItem="3509" Id="3514" Label="3515" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int8[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="3514" Bounds="-2415 -150 73 14" Id="3515" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="3514" Bounds="-2245 -140 73 14" Id="3515" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>message bits</p.Text>
 			</NodeLabel>
-			<BuildArray Bounds="-2415 -75 40 30" ConcatenateInputs="True" Id="3523" Terminals="outArray=3319, c0t0v=3544, c1t0v=3544, c2t0v=3544" VerticalChunkCount="3" />
+			<BuildArray Bounds="-2245 -65 40 30" ConcatenateInputs="True" Id="3523" Terminals="outArray=3319, c0t0v=3544, c1t0v=3544, c2t0v=3544" VerticalChunkCount="3" />
 			<DataAccessor Bounds="-750 575 40 15" DataItem="3525" Id="3529" Label="3530" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int16[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>

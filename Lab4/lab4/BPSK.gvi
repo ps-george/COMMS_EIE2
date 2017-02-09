@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8F429927F34284F342CD9B4E9004EEE0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="0E29589C87025E20EBF63D3E66E43467" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -339,13 +339,13 @@
 				<Terminal DataType="Int32" Direction="Output" Hotspot="50 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<DataAccessor Bounds="-2355 -65 40 15" DataItem="2830" Id="2834" Label="2835" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="-2305 -65 40 15" DataItem="2830" Id="2834" Label="2835" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="2834" Bounds="-2409 -65 49 14" Id="2835" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="2834" Bounds="-2359 -65 49 14" Id="2835" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>total bits</p.Text>
 			</NodeLabel>
-			<Wire Id="2836" Joints="N(2834:Value) h(25) B(1) N(2829:L0) B(1) v(200) h(1312) v(405) h(-2) v(5) N(3162:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2836" Joints="N(2834:Value) h(20) B(1) N(2829:L0) B(1) v(200) h(1267) v(405) h(-2) v(5) N(3162:length0)" xmlns="http://www.ni.com/PlatformFramework" />
 			<ForLoop Bounds="-2172 -107 115 95" DiagramId="2860" Id="2859">
 				<LoopIteration Bounds="75 65 15 15" Id="2862" />
 				<Select Bounds="60 25 40 40" Id="2865" />

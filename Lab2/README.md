@@ -46,7 +46,6 @@ URSP = Universal Software Radio Peripheral
 
 * Need USRP
 
--George
 If the baseband discrete time signal is expressed as:
 !(Complex baseband in)[screenshots/complex_baseband.PNG]
 then the continuous time transmitted signal from the USRP is

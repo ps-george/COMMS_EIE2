@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7C8108FE80B38A259BDE36964EEE6CA6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BA4E49A7472A252E39BBD5B5E3036B37" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="GComponentFeatureSet" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/GComponent.xsd" Version="4.5.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -47,9 +47,9 @@
 				<EnvoyFacadeManager Id="5" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
 					<MappingManager Id="7" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
 						<Instance Id="52" Source="{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop">
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="eews104a-019" p9:Process.FirmwareVersion="L01 v02.57" p9:Process.HardwareAlias="eews104a-019" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Enterprise  (Service Pack 1)" p9:Process.SerialNumber="CZC5290LF3" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Hewlett-Packard" p10:Process.ModelName="HP EliteDesk 800 G1 SFF" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop" p9:Process.DiscoveryAddress="localhost:SystemController" p9:Process.DiscoveryUserAlias="eews104a-022" p9:Process.FirmwareVersion="L01 v02.57" p9:Process.HardwareAlias="eews104a-022" p9:Process.HardwareRevision="" p9:Process.IsSimulated="False" p9:Process.OperatingSystemDescription="Microsoft Windows 7 Enterprise  (Service Pack 1)" p9:Process.SerialNumber="CZC5290LFB" p9:Process.SupportsExternalCalibration="False" p9:Process.SupportsSelfCalibration="False" p9:Process.SystemUserComment="" p9:Process.VendorName="Hewlett-Packard" p10:Process.ModelName="HP EliteDesk 800 G1 SFF" xmlns:p10="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" p9:Process.AssociatedIdentifier="68" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth11" p9:Process.HardwareAlias="Intel(R) Ethernet Connection I217-LM" p9:Process.NetworkConfig.Ipv4Address="155.198.114.58" p9:Process.NetworkConfig.Ipv4DnsServer="155.198.142.7" p9:Process.NetworkConfig.Ipv4Gateway="155.198.114.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost/[{http://www.ni.com/SystemDesigner/Common/SystemModel}EthernetConnector]EthernetConnector/[{http://www.ni.com/SystemDesigner/Common/SystemModel}NetworkAdapter]NetworkAdapter" p9:Process.DiscoveryAddress="localhost:nisyscfg:eth11" p9:Process.HardwareAlias="Intel(R) Ethernet Connection I217-LM" p9:Process.NetworkConfig.Ipv4Address="155.198.114.61" p9:Process.NetworkConfig.Ipv4DnsServer="155.198.142.7" p9:Process.NetworkConfig.Ipv4Gateway="155.198.114.1" p9:Process.NetworkConfig.Ipv4SubnetMask="255.255.255.0" xmlns:p9="http://www.ni.com/SystemDesigner/Discovery" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="245" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="AddFrameHeader.gvi" p9:Process.AssociatedIdentifier="227" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
@@ -87,6 +87,9 @@
 						<Instance Id="1185" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
 							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="BER.gvi" p9:Process.AssociatedIdentifier="1183" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
+						<Instance Id="1330" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="DPSK.gvi" p9:Process.AssociatedIdentifier="1328" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+						</Instance>
 						<Superimposition Id="8" Name="Root Superimposition">
 							<Superimpose Source="52">
 								<Superimpose Parent="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="245" />
@@ -101,6 +104,7 @@
 								<Superimpose Parent="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1161" />
 								<Superimpose Parent="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1179" />
 								<Superimpose Parent="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1185" />
+								<Superimpose Parent="{:/52}[{http://www.ni.com/SystemDesigner/Desktop/SystemModel}Desktop]Desktop/DesktopHost" Source="1330" />
 							</Superimpose>
 						</Superimposition>
 					</MappingManager>
@@ -380,6 +384,7 @@
 											<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibraryEntryPoint,SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc" ContentIdentifier="816" Id="1048" ModelDefinitionType="NationalInstruments.MocCommon.ExternalCode.SourceModel.SharedLibrary" Name="unitVector80_head" />
 										</NameScopingContentReference>
 									</SourceFileReference>
+									<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc" Id="1334" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Shift\ Array\.gvi" StoragePath="Shift Array.gvi" />
 								</NameScopingContentReference>
 							</NameScopingContentReference>
 						</NameScopingContentReference>
@@ -912,6 +917,7 @@
 						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1183" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="BER\.gvi" StoragePath="..\lab4_shared_files\BER.gvi">
 							<ContentReference Bindings="Envoy,ContentReference,NationalInstruments.Restricted.CCode.Modeling.CCodeNodeDll,CCodeMocForCLibraryComponent,IAutoCreateContentReference" ContentIdentifier="16" Id="1275" Name="CCodeNodeDll\-16" />
 						</SourceFileReference>
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,FileReference,SourceFileReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="1328" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DPSK\.gvi" StoragePath="DPSK.gvi" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition,EmbeddedReference" Id="222" ModelDefinitionType="NationalInstruments.LabVIEW.VI.UserDefinedRefnums.UdrRepositoryManagerDefinition" Name="udr\.lib" Reparentable="False">
 						<UDRRepositoryManagerDefinition Location="" />
@@ -1239,6 +1245,7 @@
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1160" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="BPSK_FEC\.gvi" StoragePath="BPSK_FEC.gvi" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1178" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FEC\ Decoder\.gvi" StoragePath="..\lab4_shared_files\FEC Decoder.gvi" />
 				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1184" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="BER\.gvi" StoragePath="..\lab4_shared_files\BER.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="1329" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DPSK\.gvi" StoragePath="DPSK.gvi" />
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DataDepot,ProjectDefaultCopyPasteServiceOptOut,ProjectDefaultDragDropServiceOptOut,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="14" ModelDefinitionType="DataDepot" Name="DataDepot">
