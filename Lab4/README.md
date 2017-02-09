@@ -1,4 +1,4 @@
-# Lab 4
+# Lab 4 - Thursday 9th February
 
 ## Exercise 1 - BPSK Transmitter
 
