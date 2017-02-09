@@ -17,15 +17,21 @@ For a IQ Rate of 200k and a symbol rate of 10k the number of samples per symbol 
 	
 Graphs for values above: ![Ex 1 graph 1](screenshots/lab4_ex1_graphs.PNG)
 	
-Main lobe: ![Main Lobe](screenshots/lab4_ex1_mainlobe.PNG)
+Main lobe: 
+
+![Main Lobe](screenshots/lab4_ex1_mainlobe.PNG)
 	
-Main lobe bandwidth: *_INSERT SOMETHING_*
+Main lobe bandwidth: 4e-07 Hz
 	
-No pulse shaping filter graphs: ![#nofilter](screenshots/lab4_ex1_graphs_none.PNG)
+No pulse shaping filter graphs:
+
+![#nofilter](screenshots/lab4_ex1_graphs_none.PNG)
 	
-No pulse shaping filter main lobe: ![Main Lobe no filter](screenshots/lab4_ex1_mainlobe_none.PNG)
+No pulse shaping filter main lobe:
+
+![Main Lobe no filter](screenshots/lab4_ex1_mainlobe_none.PNG)
 	
-Main lobe bandwidth: *_INSERT SOMETHING_*
+Main lobe bandwidth: 5.2e-07 Hz
 	
 * We observed that without a pulse shaping filter, the sideband lobes continued for a larger frequency range. This is because without a pulse shaping filter, higher frequency elements are required due to the rapid change in the message signal.
 * Spectral rolloff is much faster using the pulse shaping filter.
