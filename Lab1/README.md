@@ -31,11 +31,12 @@
 ![](./screenshots/Lab1_Exe2_4.PNG)
 
 ## Exercise 3
-#### Front Panel
-![](./screenshots/Lab1_Exe3_1.PNG)
-#### Block Diagram
+#### Block Diagram - Just lowpass filter
 ![](./screenshots/Lab1_Exe3_2.PNG)
-#### Waveform PSD
-![](./screenshots/Lab1_Exe3_3.PNG)
-#### Filtered Waveform
+#### Front Panel - Just lowpass filter output
+![](./screenshots/Lab1_Exe3_1.PNG)
+#### Block Diagram - Bandpass filter
 ![](./screenshots/Lab1_Exe3_4.PNG)
+#### Front Panel - Bandpass filter output
+![](./screenshots/Lab1_Exe3_3.PNG)
+
