@@ -42,7 +42,7 @@ In this exercise, we built a AM Demoulator which uses coherent demodulation.
 ## Theory
 The carrier signal m(t)cos(2pifct) when received by the receiver is multiplied by cos(2pifct).
 
-m(t)cos(2pifct)^2= m(t)(1/2(1+cos(4pifct)))
+![](screenshots/lab2_maths.PNG)
 
 Using a low pass filter, centered around the baseband, the output signal will be 1/2m(t).
 
