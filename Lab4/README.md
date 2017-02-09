@@ -51,7 +51,11 @@
 
 ### Observation
 * BER Module does not allow the program to compile.
-* FEC Decoder seems to 	
+* After doing all the steps, the program still did not work until the following steps were done:
+1. Needed to turn the output from the final pulse align module to real from complex.
+2. Needed to put a large constant into the number of samples port of the niUSRP Fetch Rx Data port so that it doesn't stop receiving data before the transmitter finishes transmitting.
+
+Finally, when it was working, the BER was 0!
 
 ## Exercise 4 - Differential Phase Shift Keying (DPSK)
 
