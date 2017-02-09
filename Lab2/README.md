@@ -6,27 +6,27 @@ In this first exercise, we built an AM modulater following the standard equation
 ![Diagram](screenshots/lab2_ex1_diagram.PNG)
 
 We set the parameters for the message and carrier signal to the following:
-![Chart from logbook]()
+![Chart from logbook](screenshots/lab2_ex1_values.PNG)
 
 We then altered the modulation index and looked at the changes that appeared:
 
 ### Effect of Modulation Index 
-Mod Index = 0.5 - ![](screenshots/lab2_ex1_mod_index_05.PNG)
+Mod Index = 0.5: ![](screenshots/lab2_ex1_mod_index_05.PNG)
 --
-Mod Index = 1 -  ![](screenshots/lab2_ex1_mod_index_1.PNG)
+Mod Index = 1:  ![](screenshots/lab2_ex1_mod_index_1.PNG)
 --
-Mod Index = 1.5 -  ![](screenshots/lab2_ex1_mod_index_15.PNG)
+Mod Index = 1.5:  ![](screenshots/lab2_ex1_mod_index_15.PNG)
 --
 
 ### Observations
 Two points can be observed with increasing modulation index: The sidebands extend out and increase in magnitude; there is an increase modulation depth. At 0.5, the signal is undermodulated, has low modulation depth and therefore does not utilise the carrier efficiently. At 1, the modulation depth reaches zero and at index of 1.5 over modulation occurs. The carrier signal goes below the zero point and phase reversal is exhibited. The phase reversal caused the sidebands to stretch out - this may cause intereference and must be filtered.
 
 ### Effect of increasing frequency of the message
-Fm = 1kHz - ![](screenshots/lab2_ex1_AM_1khz.PNG)
+Fm = 1kHz: ![](screenshots/lab2_ex1_AM_1khz.PNG)
 --
-Fm = 2kHz -  ![](screenshots/lab2_ex1_AM_2khz.PNG	)
+Fm = 2kHz:  ![](screenshots/lab2_ex1_AM_2khz.PNG	)
 --
-Fm = 5kHz -  ![](screenshots/lab2_ex1_AM_5khz.PNG	)
+Fm = 5kHz:  ![](screenshots/lab2_ex1_AM_5khz.PNG	)
 --
 
 ### Observations
@@ -61,7 +61,7 @@ The envelope detector outputs the envelope of one half of the signal. The high f
 Here we simulated the AM Modulator and Demodulator working together.
 
 Diagram:
-![](lab2_ex3_diagram.PNG)
+![](screenshots/lab2_ex3_diagram.PNG)
 
 * Envelope detection is better at high frequencies.
 * Envelope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
