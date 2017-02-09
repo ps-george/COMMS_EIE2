@@ -1,4 +1,4 @@
-# Lab 4 - Thursday 9th February
+# Lab 4 - Binary Phase Shift Keying (BPSK) Via USRP
 
 ## Exercise 1 - BPSK Transmitter
 
