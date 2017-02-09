@@ -3,30 +3,30 @@
 ## Exercise 1 - BPSK Transmitter
 
 ### Aim
-	In this exercise, we constructed a BPSK Transmitter 
+In this exercise, we constructed a BPSK Transmitter 
 	
-	Diagram:
-	![BPSK Transmitter Diagram](screenshots/lab4_ex1_BPSK_Tx.PNG)
+Diagram:
+![BPSK Transmitter Diagram](screenshots/lab4_ex1_BPSK_Tx.PNG)
 	
 ### Observation
-	Values: ![Ex 1 values](screenshots/lab4_ex1_values.PNG)
+Values: ![Ex 1 values](screenshots/lab4_ex1_values.PNG)
 	
-	For a IQ Rate of 200k and a symbol rate of 10k the number of samples per symbol is 20.
+For a IQ Rate of 200k and a symbol rate of 10k the number of samples per symbol is 20.
 	
-	Graphs for values above: ![Ex 1 graph 1](screenshots/lab4_ex1_graphs.PNG)
+Graphs for values above: ![Ex 1 graph 1](screenshots/lab4_ex1_graphs.PNG)
 	
-	Main lobe: ![Main Lobe](screenshots/lab4_ex_mainlobe.PNG)
+Main lobe: ![Main Lobe](screenshots/lab4_ex_mainlobe.PNG)
 	
-	Main lobe bandwidth: *_INSERT SOMETHING_*
+Main lobe bandwidth: *_INSERT SOMETHING_*
 	
-	No pulse shaping filter graphs: ![#nofilter](screenshots/lab4_ex1_graphs_none.PNG)
+No pulse shaping filter graphs: ![#nofilter](screenshots/lab4_ex1_graphs_none.PNG)
 	
-	No pulse shaping filter main lobe: ![Main Lobe no filter](screenshots/lab4_ex_mainlobe_none.PNG)
+No pulse shaping filter main lobe: ![Main Lobe no filter](screenshots/lab4_ex_mainlobe_none.PNG)
 	
-	Main lobe bandwidth: *_INSERT SOMETHING_*
+Main lobe bandwidth: *_INSERT SOMETHING_*
 	
-	* We observed that without a pulse shaping filter, the sideband lobes continued for a larger frequency range. This is because without a pulse shaping filter, higher frequency elements are required due to the rapid change in the message signal.
-	* Spectral rolloff is much faster using the pulse shaping filter.
+* We observed that without a pulse shaping filter, the sideband lobes continued for a larger frequency range. This is because without a pulse shaping filter, higher frequency elements are required due to the rapid change in the message signal.
+* Spectral rolloff is much faster using the pulse shaping filter.
 
 ## Exercise 2 - BPSK Receiver
 
