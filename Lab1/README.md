@@ -10,12 +10,13 @@
 #### Panel - Running integer value of first three characters
 ![](./screenshots/DataTypes_panel2.PNG)
 
-## Exercise 2
+## Exercise 2 - Implementation of the Central Limit Theorem
 - First, we created a uniform distribution generator.
 - By repeatedly generating uniformly distributed random numbers, we observed the sample mean converging to a normal distribution.
 
 #### Diagram 1
 ![](./screenshots/Lab1_Exe2_1.PNG)
+### Output:
 #### Histogram 1
 ![](./screenshots/Lab1_Exe2_2.PNG)
 
@@ -30,11 +31,11 @@
 ![](./screenshots/Lab1_Exe2_4.PNG)
 
 ## Exercise 3
-#### 1
+#### Front Panel
 ![](./screenshots/Lab1_Exe3_1.PNG)
-#### 2
+#### Block Diagram
 ![](./screenshots/Lab1_Exe3_2.PNG)
-#### 3
+#### Waveform PSD
 ![](./screenshots/Lab1_Exe3_3.PNG)
-#### 4
+#### Filtered Waveform
 ![](./screenshots/Lab1_Exe3_4.PNG)
