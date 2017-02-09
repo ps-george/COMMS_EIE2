@@ -1,36 +1,70 @@
 # Lab 2 - AM Simulation and USRP
 
 ## Exercise 1 - AM Modulation
+In this first exercise, we built an AM modulater following the standard equation where the carrier wave's amplitude is changed with respect to the message signal. The fully built diagram is as follows:
 
+![Diagram](screenshots/lab2_ex1_diagram.PNG)
 
-Effect of Modulation Index 
-0.5 - 
-1 - 
-1.5 - 
+We set the parameters for the message and carrier signal to the following:
+![Chart from logbook]()
 
-Effect of increasing frequency of the message
+We then altered the modulation index and looked at the changes that appeared:
 
+### Effect of Modulation Index 
+Mod Index = 0.5 - ![](screenshots/lab2_ex1_mod_index_05.PNG)
+--
+Mod Index = 1 -  ![](screenshots/lab2_ex1_mod_index_1.PNG)
+--
+Mod Index = 1.5 -  ![](screenshots/lab2_ex1_mod_index_15.PNG)
+--
+
+### Observations
+Two points can be observed with increasing modulation index: The sidebands extend out and increase in magnitude; there is an increase modulation depth. At 0.5, the signal is undermodulated, has low modulation depth and therefore does not utilise the carrier efficiently. At 1, the modulation depth reaches zero and at index of 1.5 over modulation occurs. The carrier signal goes below the zero point and phase reversal is exhibited. The phase reversal caused the sidebands to stretch out - this may cause intereference and must be filtered.
+
+### Effect of increasing frequency of the message
+Fm = 1kHz - ![](screenshots/lab2_ex1_AM_1khz.PNG)
+--
+Fm = 2kHz -  ![](screenshots/lab2_ex1_AM_2khz.PNG	)
+--
+Fm = 5kHz -  ![](screenshots/lab2_ex1_AM_5khz.PNG	)
+--
+
+### Observations
 * When the message frequency is lower, the waveform is symmetrical around the x-axis.
 * At 5k, the waveform becomes malformed because there is an operlap between -fc+fm and fc-fm.
 * "Nyquist Rate" - message bandwidth must be at most half the carrier bandwidth.
 
 
 ## Exercise 2a) - Coherent Demodulation
-* Scaled the output by a factor of 2
-**MATTTTHS**
+In this exercise, we built a AM Demoulator which uses coherent demodulation.
+![](screenshots/lab2_ex2a_diagram.PNG)
+
+## Theory
+The carrier signal m(t)cos(2pifct) when received by the receiver is multiplied by cos(2pifct).
+
 m(t)cos(2pifct)^2= m(t)(1/2(1+cos(4pifct)))
 
-Explain briefly the mathematical theory behind this demodulation technique. Moreover, why
-are we using a low pass filter and why do we have to get rid of the DC component? Why do you
-need to scale the message amplitude?
+Using a low pass filter, centered around the baseband, the output signal will be 1/2m(t).
 
-## Exercise 2b)
+Therefore to retrieve the original signal amplitude, we multiply the output by 2.
 
 
+## Exercise 2b) - Envelope Detection
+In this exercise, we built another AM demoulator which uses envelope detection.
+![](screenshots/lab2_ex2b_envelope_diagram.PNG)
+
+## Theory
+The envelope detector outputs the envelope of one half of the signal. The high frequency element is then filtered out.
+![](screenshots/envelope_detect.gif)
 
 ## Exercise 3
+Here we simulated the AM Modulator and Demodulator working together.
+
+Diagram:
+![](lab2_ex3_diagram.PNG)
+
 * Envelope detection is better at high frequencies.
-* Envolope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
+* Envelope detection works until the modulation index goes above 1; at that point only coherent detection works correctly because during modulation the envelope signal has parts that are left negative.
 * Coherent detection is fine at >1 modulation indexes, but requires the transmitter and receiever to be in phase and at the same frequency.
 
 ## Exercise 4
@@ -44,12 +78,10 @@ URSP = Universal Software Radio Peripheral
 7. niUSRP Fetch Rx data
 8. niUSRP Abort
 
-* Need USRP
-
 If the baseband discrete time signal is expressed as:
-!(Complex baseband in)[screenshots/complex_baseband.PNG]
+![Complex baseband in](screenshots/complex_baseband_usrp.PNG)
 then the continuous time transmitted signal from the USRP is
-!(Continous time out)[screenshots/continuous_time.PNG]
+![Continous time out](screenshots/continuous_time.PNG)
 
 ### Explain how the transmitter and receiver work.
 * The modules provide the USRP with complex data representing the signal.
@@ -57,10 +89,10 @@ then the continuous time transmitted signal from the USRP is
 * At the receiver the USRP demodulates the signal and returns the demodulated signal.
 * The signal is very noisy.
 
-!(1kHz tone)[screenshots/lab2_ex4_first.PNG]
+![1kHz tone](./screenshots/lab2_ex4_first.PNG)
 
 ### Single tone 5kHz
-!(Single tone 5kHz)[screenshots/lab2_ex4_5000.PNG]
+![Single tone 5kHz](./screenshots/lab2_ex4_5000.PNG)
 
 To observe the effect of noise in the demodulated signal, increase the receiver’s gain to 20
 dB (your receiver will start to detect other weaker signals in addition to the transmitted signal), and
@@ -71,4 +103,4 @@ noticed in the plots?
 
 * We increased the receiver gain to 20, and the modulation index all the way up to 100, and received the following noise:
 
-!(Noisy AM)[screenshots/lab2_ex4_noisy.PNG]
+![Noisy AM](./screenshots/lab2_ex4_noisy.PNG)
