@@ -33,6 +33,7 @@ Main lobe bandwidth: *_INSERT SOMETHING_*
 ## Exercise 2 - BPSK Receiver
 
 ### Aim
+
 ![BPSK Theory](screenshots/lab4_ex2_instr.PNG)	
 In this exercise, we constructed the BPSK Receiver 
 	
@@ -53,6 +54,7 @@ Diagram:
 ### Aim
 
 ### Observation
+
 * BER Module does not allow the program to compile.
 * After doing all the steps, the program still did not work until the following steps were done:
 1. Needed to turn the output from the final pulse align module to real from complex.
@@ -70,6 +72,7 @@ Finally, when it was working, the BER was much lower:
 ## Exercise 4 - Differential Phase Shift Keying (DPSK)
 
 ### Aim
+
 In this exercise, we constructed a DPSK Encoder and Decoder and added it to the transmitter and receivers
 	
 Diagram:
@@ -83,4 +86,7 @@ Diagram:
 | -40             | -15             |1 |0.171 | 0.501| 1|0.495 |0.633        |
 
 ## Comparison between DPSK and BPSK
-For the initial
+
+With the data we collected, DPSK performed better until the Tx Gain was reduced to -40. In theory, DPSK is just sending the differences, so has protection from any phase flipping effect that may occur between the receiver and transmitter.
+
+However, since DPSK only transmits differences, it is possible that errors get propogated forward which is why it performed worse at very low gain.
