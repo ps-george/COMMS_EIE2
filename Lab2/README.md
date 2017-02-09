@@ -68,9 +68,9 @@ Diagram:
 * Coherent detection is fine at >1 modulation indexes, but requires the transmitter and receiever to be in phase and at the same frequency.
 
 ## Exercise 4
-URSP = Universal Software Radio Peripheral
-1. niUSRP Open Tx Session: 
-2. niUSRP Configure Signal: - S
+Universal Software Radio Peripheral components:
+1. niUSRP Open Tx Session
+2. niUSRP Configure Signal
 3. niUSRP Write Tx Data
 4. niUSRP Close Session
 5. niUSRP Open Rx Session
