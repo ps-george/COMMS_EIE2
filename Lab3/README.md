@@ -18,14 +18,14 @@ Equivalent form we will be using:
 
 ![FM modulator](screenshots/FM_modulator_diagram.PNG)
 
-### Vary _delta f_
-## _delta f_=500
+## Varying _delta f_
+### _delta f_=500
 ![500](screenshots/lab3_ex1_500.PNG)
 
-## _delta f_=2000
+### _delta f_=2000
 ![2000](screenshots/lab3_ex1_2000.PNG)
 
-## _delta f_=5000
+### _delta f_=5000
 ![5000](screenshots/lab3_ex1_5000.PNG)
 
 * As delta f increases, you can more easily see the variations in frequency of the FM signal.
