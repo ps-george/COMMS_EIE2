@@ -17,13 +17,13 @@ For a IQ Rate of 200k and a symbol rate of 10k the number of samples per symbol 
 	
 Graphs for values above: ![Ex 1 graph 1](screenshots/lab4_ex1_graphs.PNG)
 	
-Main lobe: ![Main Lobe](screenshots/lab4_ex_mainlobe.PNG)
+Main lobe: ![Main Lobe](screenshots/lab4_ex1_mainlobe.PNG)
 	
 Main lobe bandwidth: *_INSERT SOMETHING_*
 	
 No pulse shaping filter graphs: ![#nofilter](screenshots/lab4_ex1_graphs_none.PNG)
 	
-No pulse shaping filter main lobe: ![Main Lobe no filter](screenshots/lab4_ex_mainlobe_none.PNG)
+No pulse shaping filter main lobe: ![Main Lobe no filter](screenshots/lab4_ex1_mainlobe_none.PNG)
 	
 Main lobe bandwidth: *_INSERT SOMETHING_*
 	
