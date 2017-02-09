@@ -1,4 +1,4 @@
-#Lab 1
+# Lab 1 - Introduction to LabView
 
 ## Exercise 1 - Data Types in LabView
 #### Block Diagram - Convert name into byte value, then convert from Fahrenheit to Celsius
