@@ -22,7 +22,7 @@
 
 ### Task: to standardize the normal distribution produced by the Central Limit Theorem
 - Subtracted the mean from the random variable, and then dividing by the standard deviation.
-![Standard Normal](./screenshots/standardnormal.png)
+<img src="./screenshots/standardnormal.png" alt="standard normal" height="100">
 
 #### Diagram 2
 ![](./screenshots/Lab1_Exe2_3.PNG)
