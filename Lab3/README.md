@@ -37,6 +37,8 @@ Equivalent form we will be using:
 * This is just like AM modulation, so the envelope detection method works to retrieve the signal from the differentiated signal.
 * Coherent detection would not work because we do not know the phase of the resultant signal
 
+![demod](!screenshots/envelope_demodulation.PNG)
+
 ### Envelope Detection
 ![FM demodulator](screenshots/FM_demodulator_diagram.PNG)
 

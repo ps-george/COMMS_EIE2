@@ -1,6 +1,10 @@
 # Lab 2 - AM Simulation and USRP
 
 ## Exercise 1 - AM Modulation
+The standard equation for AM signals:
+
+![AM_Signal](screenshots/am_signal.PNG)
+
 In this first exercise, we built an AM modulater following the standard equation where the carrier wave's amplitude is changed with respect to the message signal. The fully built diagram is as follows:
 
 ![Diagram](screenshots/lab2_ex1_diagram.PNG)
@@ -9,6 +13,8 @@ We set the parameters for the message and carrier signal to the following:
 ![Chart from logbook](screenshots/lab2_ex1_values.PNG)
 
 We then altered the modulation index and looked at the changes that appeared:
+
+Modulation index = ![](screenshots/mod_index.PNG)
 
 ### Effect of Modulation Index 
 Mod Index = 0.5: ![](screenshots/lab2_ex1_mod_index_05.PNG)
