@@ -76,6 +76,20 @@ Finally, when it was working, the BER was much lower:
 | -40           | -15           |1 |0.457 |0.480     |0.506 |0.501 |0.589        |
 
 ## Exercise 4 - Differential Phase Shift Keying (DPSK)
+### What is DPSK?
+In DPSK, the transmitted sends the difference between two adjacent bits and not the bits themselves. The table below shows how the difference is obtained for possible pairs of sumbols. Encoded sequence is obtained by bn=b(n-1)xan
+
+| Information Symbols | {bn}  | Decision |
+|:------------------:|:-----:|:------------------------:|
+|          -          | 1 (reference bit)     |            1             |
+|           1        | 1     |            -1            |
+|           -1       | -1    |            -1            |
+|            -1      | 1     |            1             |
+|              1     | 1     |            -1            |
+|               -1   | -1    |            -1            |
+|                 -1 | 1     |            1             |
+|               1    | 1     |            1             |
+|         1          | 1     |             -            |
 
 ### Aim
 
