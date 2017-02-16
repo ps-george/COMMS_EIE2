@@ -103,7 +103,7 @@ then the continuous time transmitted signal from the USRP is
 To observe the effect of noise in the demodulated signal, increase the receiver’s gain to 20
 dB (your receiver will start to detect other weaker signals in addition to the transmitted signal), and
 adjust the X axis of the demodulated message (in time domain) to show values between 0 second
-(s) and 0.004 s. Then, change the modulation index (𝜇) value and observe the effects on the plots
+(s) and 0.004 s. Then, change the modulation index (mu) value and observe the effects on the plots
 of the demodulated signal in both time and frequency. From what value of can noise be clearly
 noticed in the plots?
 
